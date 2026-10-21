@@ -1,0 +1,30 @@
+JE FAIS QUOI ? — mettre l'appli sur ton téléphone Android
+==========================================================
+
+Il faut la mettre en ligne une seule fois (gratuit, avec GitHub Pages),
+puis l'installer depuis Chrome. Tes activités et tes photos restent
+uniquement sur ton téléphone : rien n'est envoyé sur GitHub.
+
+1. Décompresse le zip (appli Fichiers : touche le zip > Extraire).
+2. Crée un compte gratuit sur https://github.com
+3. Crée un dépôt : bouton « + » > New repository
+   - Repository name : je-fais-quoi
+   - Public
+   - Create repository
+4. Sur la page du dépôt, touche « uploading an existing file »,
+   sélectionne TOUS les fichiers du dossier décompressé, puis « Commit changes ».
+5. Onglet Settings > Pages
+   - Source : Deploy from a branch
+   - Branch : main, dossier / (root) > Save
+   Attends 1 à 2 minutes.
+6. Sur ton téléphone, ouvre dans Chrome :
+   https://TON-PSEUDO.github.io/je-fais-quoi/
+   puis menu ⋮ > « Installer l'application »
+   (ou le bouton « Installer » en haut de l'appli).
+
+Conseil : dans l'appli, « Mes activités » > « Sauvegarder mes données »
+crée un fichier de sauvegarde (avec tes photos). Garde-le au cas où tu
+changes de téléphone ou si tu effaces les données de Chrome.
+
+Mise à jour de l'appli plus tard : remplace les fichiers sur GitHub et
+change le numéro de version dans sw.js (je-fais-quoi-v1 > v2).
